@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment 5</title>
+    <!-- inline style -->
+
+    <style>
+.internal {
+ color: aqua;
+
+}
+.inline-internal {
+     color: chocolate;
+}
+.internal-external {
+    color: rgb(225, 255, 0);
+}
+.inline-internal-external {
+    color: pink;
+}
+
+/* its crealy showing that in between internal and external , external wins. */
+/* its crealy showing that in between inline internal and external , inline wins */
+  /* its crealy showing that in between inline  and external , inline wins */     
+  /* its crealy showing that in between inline and internal , inline wins */
+    </style>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>    
+<!-- 6. Create a simple page wit= some div tags and s=ow different ways to add CSS as well as what =appens 
+w=en you target the same elements wit= inline, internal, and external CSS. Also, utilize comments in t=e 
+project were required. 
+ans -->
+<div style="color: red;">inline</div>
+<div class="internal">internal</div>
+<div class="external">External</div>
+<div style="color: rgb(215, 24, 17);" class="inline-external">inline-external</div>
+<div style="color: blue;" class="inline-internal">Inline + Internal</div>
+<div class="internal-external"> internal + external</div>
+<div style="color: rgb(25, 170, 189);" class="inline-internal-external">inline + internal + external</div>
+
+
+</body>
+</html>

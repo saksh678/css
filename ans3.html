@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+.firstname {
+background-color: brown;
+}
+.lastname {
+background-color: pink;
+}
+#email {
+background-color: cadetblue;
+}
+button {
+    opacity: 50%;
+}
+button:hover {
+    opacity: 70%;
+}
+</style>
+</head>
+<body>
+    <!-- 3. Develop an HTML form with various input elements. Use 9SS to style the form, including setting 
+background colors for input fields. 9reate a custom color palette for the form elements, and demonstrate 
+how to apply opacity to one of the form sections? -->
+
+<form>
+    <label for="first name">First Name
+        <input type="text" class="firstname" placeholder="first name" required min="2" max="20">
+    </label>
+<br>
+<label for="last name">Last Name
+    <input type="text" class="last name" placeholder="last name" required min="2" max="20">
+</label>
+<br>
+<label for="email">Email
+    <input type="text" name="email" id="email" placeholder="sakshi@gmail.com " required >
+</label>
+<label for="password">password
+    <input type="password" name="password" id="password" required>
+</label>
+<br>
+<label for="confirmPassword">Confirm Password:
+  <input type="password" name="confirmPassword" class="confirmPassword" 
+placeholder="********" id="confirmPassword"
+    required />
+</label>
+<br>
+<label for="age">Age:
+  <input type="number" name="age" placeholder="38" id="age" required min=0 
+max=150 />
+</label>
+<br>
+<label for="">Gender:
+  <input type="radio" id="male" value="male" name="gender" checked />
+  <label for="male">Male</label>
+  <input type="radio" id="female" value="female" name="gender" />
+  <label for="female">Female</label>
+  <input type="radio" id="other" value="other" name="gender" />
+  <label for="other">Other</label>
+</label>
+<br>
+<button type="submit">register</button>
+</form>
+
+</body>
+</html>

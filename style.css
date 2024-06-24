@@ -1,0 +1,12 @@
+.external {
+color: blueviolet;
+}
+.internal-external {
+    color: orange;
+}
+.inline-internal-external {
+color: rgb(210, 213, 26);
+}
+.inline-external {
+    color: cadetblue;
+}
